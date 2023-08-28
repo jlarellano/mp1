@@ -1,0 +1,156 @@
+@import url('https://fonts.cdnfonts.com/css/studebaker-nf');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@500&display=swap');
+
+body {
+    background-color: #696969;
+}
+.navbar-brand {
+    font-family: 'Studebaker NF', sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    color: #D2691E;
+}
+
+.navbar-nav {
+    font-family: 'Poppins', sans-serif;
+}
+
+.img-home {
+    width: 50vh;
+    border: 5px solid #D2691E;
+    border-radius: 5px;
+    box-shadow: 5px 5px #fff;
+}
+
+section {
+    height: 100vh;
+}
+
+span {
+    font-family: 'Studebaker NF', sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    color: #D2691E;
+}
+
+/* .container-home {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    border: 5px solid #fff;
+} */
+
+.content-home2 {
+    
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Domine', serif;
+}
+
+.about-us-container {
+    width: 100%;
+    height: 80vh;
+}
+
+.about-us {
+    width: 100%;
+    height: 350px;
+    background-color: rgb(54, 54, 54);
+    margin-top: 200px;
+    position: relative;
+}
+
+.content-about {
+    padding: 10px 38px;
+
+}
+
+.heading {
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: rgb(255, 129, 57);
+    margin: 10px 0px;
+    margin-bottom: 34px;
+    position: relative;
+}
+
+.heading::after {
+    content: '';
+    position: absolute;
+    left: 0px;
+    bottom: -8px;
+    background-color: rgb(255, 129, 57);
+    width: 46px;
+    height: 2px;
+
+}
+
+
+p {
+    font-size: 13px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.695);
+    line-height: 21px;
+    margin: 25px 0px;
+}
+
+.img-about {
+    height: 420px;
+    width: 45%;
+    position: absolute;
+    top: -20px;
+    right: 40px;
+
+}
+
+.product-category {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 4px;
+}
+
+.card {
+    width: 15rem;
+}
+
+.card-product {
+    padding: 14px 10px;
+    background-color: #242424;
+}
+
+.img-card {
+    height: 200px !important;
+}
+
+.card-title {
+    font-size: 20px;
+    color: rgb(255, 129, 57);
+    width: 100%;
+    border-bottom: 1px solid rgb(255, 129, 57);
+    padding: 5px 0px;
+    margin: 10px 0px;
+    margin-bottom: 20px !important;
+    text-align: center;
+}
+
+@media (max-width: 991px) {
+    .sidebar {
+        background-color: rgba(255, 255, 255, 0.15);
+        backdrop-filter: blur(10px);
+    }
+}
